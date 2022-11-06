@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.*;
 
+
 @WebServlet(name = "JdbcServlet", urlPatterns = "/jdbc_servlet")
 public class Hometask1 extends HttpServlet {
     private Logger logger = LoggerFactory.getLogger(ServletRequestListener.class);

@@ -14,6 +14,5 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
   <servlet-mapping>
     <servlet-name>BasicServlet</servlet-name>
     <url-pattern>/basic_servlet</url-pattern>
-    © geek-brains.ru 17
-  </servlet-mapping>
+    </servlet-mapping>
 </web-app>
