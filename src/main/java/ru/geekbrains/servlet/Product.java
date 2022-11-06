@@ -1,5 +1,6 @@
 package ru.geekbrains.servlet;
 
+
 public class Product {
 
     Product product1 = new Product(1, "Apple", 10);
