@@ -8,10 +8,10 @@ http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-  <bean id="products" class="Lesson2.ProductRepository"/>
-  <bean id="product" class="Lesson2.Product">
-    <property name="products">
-      <ref bean="products" />
-    </property>
-  </bean>
+    <bean id="products" class="Lesson2.ProductRepository"/>
+    <bean id="product" class="Lesson2.Product">
+        <property name="products">
+            <ref bean="products" />
+        </property>
+    </bean>
 </beans>
